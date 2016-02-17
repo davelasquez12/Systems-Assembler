@@ -1,0 +1,49 @@
+﻿Build started 2/2/2016 5:13:11 PM.
+     1>Project "C:\Users\David\Desktop\3334 Systems Programming\phase4 (vs)\phase4 (in C)\phase4 (in C).vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TC /errorReport:prompt main.c sicengine.c
+         sicengine.c
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(260): warning C4477: 'sprintf' : format string '%c' requires an argument of type 'int', but variadic argument 2 has type 'char *'
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(260): warning C4313: 'sprintf': '%c' in format string conflicts with argument 2 of type 'char *'
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(260): warning C4477: 'sprintf' : format string '%c' requires an argument of type 'int', but variadic argument 3 has type 'char *'
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(260): warning C4313: 'sprintf': '%c' in format string conflicts with argument 3 of type 'char *'
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(393): warning C4101: 'j': unreferenced local variable
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(737): warning C4244: '=': conversion from 'ADDRESS' to 'BYTE', possible loss of data
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(753): warning C4101: 'result': unreferenced local variable
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(752): warning C4101: 'i': unreferenced local variable
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(968): warning C4101: 'i': unreferenced local variable
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(1161): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(1165): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(1258): warning C4101: 'i': unreferenced local variable
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(1258): warning C4101: 'modes': unreferenced local variable
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(1258): warning C4101: 'flags': unreferenced local variable
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(1340): warning C4101: 'fmt1': unreferenced local variable
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(1340): warning C4101: 'fmt4': unreferenced local variable
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(1338): warning C4101: 'disp': unreferenced local variable
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(1335): warning C4101: 'i': unreferenced local variable
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(1340): warning C4101: 'fmt3': unreferenced local variable
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(1340): warning C4101: 'fmt2': unreferenced local variable
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\sicengine.c(1338): warning C4101: 'addr': unreferenced local variable
+         main.c
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\functions.h(9): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\functions.h(217): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\functions.h(234): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\errorfunctions.h(115): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\errorfunctions.h(127): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\assemblepass2functions.h(329): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\assemblepass2functions.h(340): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\assemblepass2functions.h(352): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\assemblepass2functions.h(372): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\assemblepass2functions.h(394): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\assemblepass2functions.h(461): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\david\desktop\3334 systems programming\phase4 (vs)\phase4 (in c)\main.c(33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\David\Desktop\3334 Systems Programming\phase4 (vs)\x64\Debug\phase4 (in C).exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\David\Desktop\3334 Systems Programming\phase4 (vs)\x64\Debug\phase4 (in C).pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\David\Desktop\3334 Systems Programming\phase4 (vs)\x64\Debug\phase4 (in C).lib" /MACHINE:X64 x64\Debug\main.obj
+         x64\Debug\sicengine.obj
+         phase4 (in C).vcxproj -> C:\Users\David\Desktop\3334 Systems Programming\phase4 (vs)\x64\Debug\phase4 (in C).exe
+     1>Done Building Project "C:\Users\David\Desktop\3334 Systems Programming\phase4 (vs)\phase4 (in C)\phase4 (in C).vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.13
